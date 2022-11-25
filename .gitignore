@@ -1,2 +1,3 @@
-target
-.idea
+/target/**
+nimi-casestudy-1.iml
+.idea/**
