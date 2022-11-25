@@ -20,6 +20,7 @@ public class CreditCard {
     @NotBlank
     @Pattern(regexp = "^[0-9]{13,16}$", message = "'cardNumber' must be of 13 to 16 with digits")
     private String cardNumber;
+
     @NotNull(message = "'cardType' should not be empty")
     private CreditCardType cardType;
 
